@@ -47,3 +47,15 @@ function peak(arr) {
   return -1;
   
 }
+
+
+### Courses:
+
+I studied at Makers-Bootcamp in Bishkek, their website: https://bootcamp.makers.kg.
+I studied from January to May 2021, JavaScript. After graduation, I received a certificate.
+
+
+### Languages:
+* Kyrgyz is native.
+* Russian is fluent.
+* English - A2
