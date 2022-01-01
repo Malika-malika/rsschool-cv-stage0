@@ -15,3 +15,35 @@ I’m interested in Web Development because this occupation provides endless pos
 besides there’s a huge amount of free high quality resources for self-education and a large community of developers.
 
 I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.
+
+
+### Skills and Proficiency:
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* Bootstrap 5
+* Material-UI
+* VS Code, Sublime Text
+
+
+### Code example:
+
+function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+  
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    
+    if (leftSum === rightSum) {
+    
+      return i;
+      
+    }
+    
+  }
+  
+  return -1;
+  
+}
