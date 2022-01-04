@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Dancing+Script:wght@600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Raleway:wght@200;300;400;500;600;700&family=Sacramento&display=swap');
 * 
 {
     box-sizing: border-box;
@@ -156,6 +157,7 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
+    cursor: pointer;
     /* color: #829985; */
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     -webkit-background-clip: text;
@@ -245,6 +247,7 @@ code {
     font-family: monospace;
 }
 
+
 /* footer */
 .footer {
     background-color: #3c4c5d;
@@ -268,9 +271,13 @@ code {
     padding: 0 12px;
     text-decoration: none;
     font-size: 20px;
-    font-weight: 300;
+    /* font-weight: 300;
     line-height: 50px;
-    color: #fff;
+    color: #fff; */
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
 }
 .rss {
     width: 121px;
@@ -292,7 +299,57 @@ code {
     -webkit-text-fill-color: transparent;
     transition: all .2s;
 }
-
 .footer-icon{
     text-align: center;
 }
+
+/* animation */
+.block-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    animation: block-text 3s infinite;
+    line-height: 130%;
+}
+.footer-anima{
+    margin-top: 20px;
+    padding-left: 420px;
+}
+.anima-block{
+    max-width: 450px;
+    height: 50px;
+    border: 2px solid;
+    background-color: transparent;
+    animation: anima-block 3s infinite;
+    border-radius: 10px;
+}
+
+@keyframes block-text {
+    0% {
+        font-size: 30px;
+        color: white;
+
+    }
+    50% {
+        opacity: 0;
+        font-size: 16px;
+        color: #333333;
+    }
+    100%{
+        font-size: 30px;
+        color: #0f9597;
+        
+    }
+} 
+
+@keyframes anima-block {
+    0% {
+        border: 2px solid hotpink;
+    }
+    50% {
+        border: 2px solid black;
+    }
+    100%{
+        border: 2px solid hotpink;
+        
+    }
+} 
