@@ -1,2 +1,3 @@
 
-https://github.com/Malika-malika/rsschool-cv/tree/rsschool-cv-html
+https://github.com/Malika-malika/rsschool-cv/blob/main/cv.md
+https://github.com/Malika-malika/rsschool-cv
