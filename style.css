@@ -74,7 +74,10 @@ body{
 
 .main {
     margin-bottom: auto;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
 }
+
 .main-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,8 +93,8 @@ body{
     border-bottom: 15px solid #3c4c5d;
 }
 .section-profile-logo {
-    width: 200px;
-    height: 200px;
+    /* width: 200px;
+    height: 200px; */
     object-fit: cover;
     border-radius: 20%;
     box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
@@ -105,18 +108,23 @@ body{
     align-content: center;
     text-align: center;
     text-transform: uppercase;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
+    font-size: 35px;
 }
 .main-title {
     position: relative;
     padding: 0;
     margin-bottom: 20px;
-    color: #4d2323;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: 10px;
-    line-height: 50px;
-    word-spacing: 3px;
-}
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
+    /* font-size: 42px; */
+    }
+
 .main-title::after {
     content: "";
     position: absolute;
@@ -144,11 +152,15 @@ body{
 }
 .section-title {
     margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    /* color: #829985; */
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
 }
 .section-item {
     position: relative;
@@ -244,6 +256,7 @@ code {
     align-items: center;
     margin: 0 auto;
     color: #fff;
+    /* min-height: 100vh; */
 }
 .github {
     color: #fff;
@@ -265,4 +278,21 @@ code {
     background-image: url(./assets/svg/rss.svg);
     background-size: contain;
     background-repeat: no-repeat;
+}
+.fa-phone::before,
+.fa-envelope::before,
+.fa-whatsapp::before,
+.fa-instagram::before,
+.fa-twitter::before,
+.fa-facebook-f::before,
+.fa-paper-plane::before{
+    font-size: 30px; 
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all .2s;
+}
+
+.footer-icon{
+    text-align: center;
 }
