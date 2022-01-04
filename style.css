@@ -89,10 +89,14 @@ body{
     padding: 50px 30px 35px;
     border-bottom: 15px solid #3c4c5d;
 }
-
-.section-profile-logo{
-    margin: 30px;
-    border-radius: 60px;
+.section-profile-logo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20%;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 60%);
+    filter: grayscale(0.2) brightness(1.05);
+    transition: .3s;
 }
 .section-profile-title {
     display: flex;
@@ -132,12 +136,12 @@ body{
 }
 
 /* section contacts */
-/* .section {
+.section {
     width: calc(50% - 20px);
     padding: 10px;
     padding-bottom: 35px;
     border-bottom: 1px solid #672f2f;
-} */
+}
 .section-title {
     margin-bottom: 20px;
     font-size: 20px;
@@ -202,12 +206,3 @@ body{
     background-image: url(./assets/svg/5.svg);
 }
 
-/* summary */
-.section-title {
-    margin-bottom: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    color: #829985;
-}
